@@ -1,8 +1,8 @@
 
-toilet-vision - v4 2025-04-20 3:27pm
+toilet-vision - v5 one-led
 ==============================
 
-This dataset was exported via roboflow.com on April 20, 2025 at 7:28 PM GMT
+This dataset was exported via roboflow.com on April 21, 2025 at 4:14 AM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -17,13 +17,15 @@ visit https://github.com/roboflow/notebooks
 
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
-The dataset includes 252 images.
+The dataset includes 336 images.
 Objects are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
 
 The following augmentation was applied to create 3 versions of each source image:
-* Random Gaussian blur of between 0 and 2.8 pixels
+* Random brigthness adjustment of between -30 and +30 percent
+* Random exposure adjustment of between -9 and +9 percent
+* Random Gaussian blur of between 0 and 3.4 pixels
 * Salt and pepper noise was applied to 1.76 percent of pixels
 
 

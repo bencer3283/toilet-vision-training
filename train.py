@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 toilet_model = YOLO('yolov8n.pt', task='detect')
-toilet_model.train(data='/Users/poshengcheng/Documents/Spring 25/Grad Studio/toilet-vision-training/dataset/data.yaml', epochs=200, device='mps')
+toilet_model.train(data='/Users/poshengcheng/Documents/Spring 25/Grad Studio/toilet-vision-training/dataset/data.yaml', epochs=240, device='mps')
 
 # 1. Data quality:
 #     - Ensure all images have proper labels
